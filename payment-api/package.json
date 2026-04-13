@@ -1,0 +1,23 @@
+{
+  "name": "payment-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-express": "^10.4.22",
+    "@nestjs/schedule": "^4.0.0",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.11.5",
+    "reflect-metadata": "^0.2.0",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/pg": "^8.11.6"
+  }
+}
